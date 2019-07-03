@@ -1,0 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2017, 9:19:46 AM
+    Author     : jf
+*/
+.searcCriteriaPanel{
+    
+}
+.searcCriteriaCheck td{
+    padding: 2px 0px 2px 0px;
+}
+.ui-selectmanycheckbox-item-group{
+    font-size: 12px;
+}

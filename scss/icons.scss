@@ -1,0 +1,73 @@
+@import "../chipsters-verkkokauppa_files/scss/fontawesome.scss";
+@import "../chipsters-verkkokauppa_files/scss/solid.scss";
+
+.ui-icon {
+    text-indent: 0 !important;
+    vertical-align: bottom !important;
+    height: 35px;
+    margin-top: -17px !important;
+
+}
+.fa {
+    line-height: 35px;
+}
+.ui-icon-search {
+    @extend .fa;
+    @extend .fa-search;
+}
+.ui-icon-triangle-1-s {
+    @extend .fa;
+    @extend .fa-angle-down;
+}
+.ui-icon-triangle-1-e {
+    @extend .fa;
+    @extend .fa-angle-down;
+}
+.ui-icon-cart {
+    @extend .fa;
+    @extend .fa-shopping-cart;
+}
+.ui-icon-close {
+    @extend .fa;
+    @extend .fa-window-close;
+}
+.ui-icon-star {
+    @extend .fa;
+    @extend .fa-star;
+}
+.ui-messages-info-icon {
+    @extend .fa;
+    @extend .fa-info-circle;
+}
+.ui-icon-seek-first {
+    @extend .fa;
+    @extend .fa-step-backward;
+}
+.ui-icon-minusthick {
+    @extend .fa;
+    @extend .fa-minus-square;
+}
+.ui-icon-plusthick {
+    @extend .fa;
+    @extend .fa-plus-square;
+}
+.ui-icon-plus {
+    @extend .fa;
+    @extend .fa-plus;
+}
+.ui-icon-minus {
+    @extend .fa;
+    @extend .fa-minus;
+}
+.ui-icon-trash {
+    @extend .fa;
+    @extend .fa-trash-alt;
+}
+.ui-icon-seek-end {
+    @extend .fa;
+    @extend .fa-step-forward;
+    ::before {
+        display: none;
+    }
+
+}

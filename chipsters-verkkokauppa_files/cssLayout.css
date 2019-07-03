@@ -1,0 +1,206 @@
+/* ************************* SIVUN OSIEN TYYLIT ************************** */
+.wrapper{
+    min-width: 1000px;
+    max-width: 1400px;
+    width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+    display: flex;
+    margin: 0px 0px 10px 0px;
+    flex: 1;
+    background-color: whitesmoke;
+}
+.top {    
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: whitesmoke;    
+}
+.topLeft {
+    height: 100%;
+    width: 200px;
+    flex: 0 0 auto;
+    padding: 10px 0px 0px 10px;    
+}
+.topRight {
+    flex: 1 1 auto;    
+}
+.topCenter {    
+    flex: 1 1 auto;    
+}
+
+.bottom {
+    background-color: #c2dfef;    
+}
+
+.midleWrapper{
+    display: flex;
+    flex: 1;
+}
+
+.left {    
+    background-color: #ece3a5; 
+    background-color:rgba(255,255,255,0.5);
+    width: 300px;    
+    flex: 0 0 auto;
+}
+
+.content {    
+    flex: 1 1 auto;
+    padding-left: 5px;
+}
+
+#contentPanel{
+    padding: 0px 0px 0px 0px; 
+    margin: 5px 0px 0px 0px;
+}
+
+#contentPanel_content{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+}
+
+.ylaToolbar{
+    background-color: whitesmoke;    
+    float: right;
+    border: transparent;
+}
+
+.ylaToolbar tr{
+    background-color: whitesmoke;    
+}
+
+/* ************************ SEKALAISIA ***************************** */
+.kirjautunutMenuButton{
+    margin-top: 5px;    
+}
+
+.tyhjaTaulu{
+    display: none;
+}
+
+.invisiblePanel{
+    margin: 0; 
+    padding: 0; 
+    border: transparent; 
+    background-color: transparent; 
+    white-space: nowrap;
+}
+
+.invisiblePanelGrid tr{
+    border: transparent; 
+    background-color: transparent;     
+}
+.databaseDown{
+    background-color: #FCF8E3;
+    font-size: 14px;    
+}
+
+.databaseDownText{
+    color: red;    
+}
+
+/*#top a:link, #top a:visited {
+    color: black;
+    font-weight : bold;
+    text-decoration: none;
+    word-wrap: normal;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+    color: white;
+    font-weight : bold;
+    text-decoration : underline;
+}*/
+
+/* ********************************* INFO SIVUN TYYLEJÄ ************************ */
+h1.infoHeader{
+    color: #4d4d4d;
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 1.875rem;
+}
+.infoText h2{
+    color: #4d4d4d;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.infoText b{
+    font-weight: 600;    
+}
+.infoText{
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.625rem;
+    margin-bottom: 0;
+    text-rendering: optimizeLegibility;
+    color: #6b6b6b;
+    font-size: 1.25rem;
+}
+.infoImage{
+    width: 30%;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+/************************ KIELIVALINNAN TYYLEJÄ **************************************** */
+.languagepicker {
+    /*background-color: buttonface;*/
+    background-color: #e5e3e3;
+    display: inline-block;
+    padding: 0;
+    height: 40px;
+    overflow: hidden;
+    transition: all .3s ease;
+    margin: 0px 0px 0px 0px;
+    vertical-align: top;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;        
+}
+
+.languagepicker:hover {
+    /* don't forget the 1px border */
+    height: 81px;        
+}
+
+.languagepicker a{
+
+    text-decoration: none;
+}
+.languagepicker a:hover{    
+    color: blue !important;
+}
+
+.languagepicker li {
+    display: block;
+    padding: 0px 20px;
+    line-height: 40px;
+    border-top: 1px solid #EEE;        
+}
+
+.languagepicker li:hover{    
+    background-color: buttonface;
+}
+
+.languagepicker a:first-child li {	
+    border: none;
+    background-color: buttonface !important;
+}
+
+.languagepicker li img {
+    margin-right: 5px;
+}
+
+.roundborders {
+    border-radius: 5px;
+}
+
+.large:hover {
+    height: 85px;
+}
+
+
+

@@ -1,0 +1,14 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 29, 2018, 6:15:46 PM
+    Author     : jf
+*/
+.calandarPanel .ui-accordion-content.ui-helper-reset.ui-widget-content{
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+}
+

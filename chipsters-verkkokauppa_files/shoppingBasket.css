@@ -1,0 +1,40 @@
+#piilotettuOstoskori{
+    width: 1000px;
+}
+
+.emptyPanel{
+    border: none;
+    border: transparent;
+    padding: 0;
+    margin: 0;    
+}
+.ylaOstoskori{
+    text-align: center;
+    width: 200px;
+    font-size: 1.2em !important;
+}
+.ylaOstoskori td{    
+    background-color: #E5E3E3;    
+    color: #000000;
+
+}
+
+.ylaOstoskori tr{    
+    border-bottom-color: transparent !important;
+}
+
+#ylaOstoskoriTable tr{    
+    border: transparent;
+}
+
+.ylaToolbar td.ui-panelgrid-cell{
+    padding: 0px 0px 0px 0px;
+}
+.ylaOstoskori td.ui-panelgrid-cell{
+    padding: 5px 5px 5px 5px;
+}
+.unpackExtra{
+    color: red;
+    font-size: 14px;
+    margin-right: 5px;
+}

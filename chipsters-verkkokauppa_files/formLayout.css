@@ -1,0 +1,46 @@
+.customerForm{
+    width: 100%
+}
+
+.customerForm tr, td{
+    border: transparent;
+}
+.customerForm td:first-child
+{ 
+    width: 200px; 
+}
+
+.orderForm{
+    width: 100%
+}
+
+.orderForm tr, td{
+    border: transparent;
+}
+.orderForm td:first-child
+{ 
+    width: 200px; 
+}
+
+.blockHeader{
+    background-color: #E5E3E3; 
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.panelHeader span.ui-panel-title{
+    color: #000000;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.panelHeader .ui-panel-titlebar{
+    /*background-color: #0061A6;*/
+} 
+
+.ui-button.piilotettu{
+    display: none;
+}
+
+

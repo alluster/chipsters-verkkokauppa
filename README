@@ -1,0 +1,17 @@
+1. Tässä projektissa chipsters-verkkokauppa.htm filessä css importien loppupääte on muutettu alkuperäisestä javaan liittyvästä.
+2. muistaakseni markuppiin on myös muutettu ikonien nimiä sopimaan uuteen ikonikirjastoon mutta tämä kannattaa tarkastaa mikäli ikoneihin ei tule muutoksia
+
+Käynnistys:
+
+1. Lataa koneelle Node.js 11.0.0 (huomioi version on oltava korkeintaan 11.0.0)
+2. Siirry projektin root -hakemistoon terminaalissa
+3. Anna komento: $ npm install
+4. Kun lataus on valmis, anna komento: $ npm run scss
+5. Avaa root folderissa oleva chipsters-verkkokauppa.htm file selaimessa. (voi olla että se täytyy raahat selaimeen eli pelkkä kliksuttelu ei riitä)
+
+Selaimessa pitäisi näkyä css muutokset näkymään.
+
+6. Tee muutos johonkin /scss/file_name.scss -fileen
+7. Muutos pitäisi näkyä selaimessa
+8. Kun haluat muuttaa tyylit .css fileksi, anna komento: $ run npm build
+9. Kaikki projektin .scss filet compileevät /chipsters-verkkokauppa_files/index.css -fileen joka toiminee "teemana"

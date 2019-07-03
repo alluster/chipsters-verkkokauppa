@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 30, 2018, 2:03:42 PM
+    Author     : jf
+*/
+html{
+    background: url('/werpWebStore/img/tuotetori-header.jpg') no-repeat center center fixed !important;  
+}
+.logo{
+    /*width: 90px;*/
+    height: 50px;
+    padding: 0px 0px 0px 10px;
+}
+.topLeft{
+    width: 130px !important;
+}
+.verkkokauppaText{
+    width: 350px;
+    color: #000000 !important;    
+    /*text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.9);*/
+    font-size: 24px !important;
+    text-align: center;
+}
+.contentLogin{
+    margin-top: 0px !important;
+}
+.productName{
+    color: #000000 !important;
+}
+
+.productCardGalleria div.ui-galleria-nav-prev.ui-icon.ui-icon-circle-triangle-w{
+    display: none;
+}
+.productCardGalleria div.ui-galleria-nav-next.ui-icon.ui-icon-circle-triangle-e{
+    display: none;
+}
+
+div.productCardGalleria{
+    border: 1px solid #ffffff;
+}
+
+.orderProductRow{
+    height: 40px;
+}
+.korvaaviaTuotteita{
+    height: 30px;
+}
+.loginHeaderRow{
+    height: 70px !important;
+}
+
+/*.productCardGalleria ul{ 
+    text-align:center;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto}
+
+.productCardGalleria li{
+    float:left;
+    margin-left:auto;
+    margin-right:auto;
+        text-align:center;
+        display:inline-block;
+}*/
+/*ul {
+    display: flex !important;
+    align-items: center !important;
+}*/
+
+/*ul{ 
+    text-align:center !important;
+    width:100% !important; 
+    magin:0 auto !important;
+}*/
+/*li{ 
+    display:inline !important;
+    float: none !important;        
+}*/
+
+/*.ui-galleria-filmstrip-wrapper {
+    display: table !important;
+    margin: 0 auto !important;
+}
+ul.ui-galleria-filmstrip{
+    list-style: none !important;    
+}
+
+li {     
+    display: inline !important;
+}*/
+
+
+

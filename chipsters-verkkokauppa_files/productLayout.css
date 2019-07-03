@@ -1,0 +1,619 @@
+/* ********************************* TUOTEKORTTI ***************************** */
+h1.productName{
+    color: #6F88BA;
+}
+
+.productCardImage{
+    border: none;
+    max-width: 300px;
+    max-height: 225px;
+
+}
+/*#tuotekortti.productCardFirstColumn.productCardGalleria ul.ui-galleria-panel-wrapper{
+        width: 400px;
+        height: 300px;
+    }*/
+
+.ui-panel-images {
+    width: 100%;
+    height: 100%;
+}
+
+.ui-galleria-panel {
+    width: 100%;
+    height: 100%;
+}
+.ravintoarvotEkaSolu{
+    width: 70%;
+}
+@media print {        
+    .productCardButtonRow{
+        display: none !important;
+    }
+    #tuotekortti{
+        font-size: 8px !important;
+    }
+    h1{
+        font-size: 10px !important;
+    }
+    .ravintoarvotEkaSolu{
+        width: 50%;
+    }
+}
+img.productCardImage{
+    border: none;    
+}
+.productCardGalleria{
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+div.ui-galleria-frame-content img.ui-galleria-frame-image
+{
+    width: auto !important;
+    height: auto !important;
+    max-width: 60px !important;
+    max-height: 40px !important;    
+}
+
+.productCardWrapper{
+    width: 100%;
+}
+.productCardInnerWrapper{
+    width: 100%;
+}
+.productCardRightWrapper{
+    width: 100%;
+}
+.productCard{
+    width: 100%;
+}
+
+.productCardWrapper tr.ui-widget-content.ui-panelgrid-even{
+    border: transparent;        
+    vertical-align: top;    
+}
+
+ul.ui-galleria-panel-wrapper li.ui-galleria-panel
+{
+    line-height: 225px;    
+}
+
+ul.ui-galleria-filmstrip li.ui-galleria-frame{
+    line-height: 30px;    
+}
+
+ul.ui-galleria-filmstrip{
+    width: 100%;
+}
+
+ul li {
+    text-align: center;
+    
+}
+
+ul li img {
+    vertical-align: middle;     
+}
+
+.productCardWrapper td.ui-panelgrid-cell{
+    background-color: #E5E3E3;
+    padding: 20px 20px 20px 20px;    
+}
+.productCardInnerWrapper td.ui-panelgrid-cell{
+    background-color: #FFFFFF;        
+}
+.productCard td.ui-panelgrid-cell{    
+    padding: 0px 0px 0px 0px;    
+}
+.productCard tr{
+    border: transparent;
+    vertical-align: top;    
+}
+.productCard tr.ui-widget-content.ui-panelgrid-even.productCardButtonRow{
+    height: 50px;    
+}
+.PDFPrintingButtons{
+    float: right;
+
+}
+.returnButton{
+    float: left;    
+}
+.productCardFirstColumn{
+    width: 350px;
+}
+
+table.productCardRightWrapper{
+    width: 100%;
+}
+table.productCardNameColumn{
+    width: 100%;       
+}
+
+.productCardRightWrapper .productCardNameColumn tr td{
+    background-color: #E5E3E3;   
+    padding: 0px 5px 5px 5px;
+}
+input.productCardAmount{
+    width: 50px;
+    margin: 0px 5px 0px 5px
+}
+
+table.productCardDataColumn{
+    width: 100%;       
+}
+.productCardRightWrapper .productCardDataColumn tr td{
+    padding: 5px 5px 0px 5px;
+}
+span.productCardInfoHeader{
+    font-weight: bold;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    font-size: 1.2em;
+}
+#productCardLeftColumn{
+    padding-right: 30px;   
+}
+
+.productCardWrapper tbody tr.ui-widget-content.ui-panelgrid-odd{
+    border: transparent;
+}
+
+.productInfoText h2{
+    color: #4d4d4d;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.productInfoText b{
+    font-weight: 600;    
+}
+.productInfoText{
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.225rem;
+    margin-bottom: 0;
+    color: #6b6b6b;
+    font-size: 1.0rem;
+}
+
+/* ****************************** RIVIMUOTOISET TUOTERYHMÄT ****************** */
+.tuoteryhmatRivi{
+    white-space: normal !important;
+}
+
+/* ********************************* SUOSIKKI TUOTTEET *********************** */
+.favouritePanel{
+    margin-bottom: 10px !important;
+}
+
+/* ****************************** UUTUUS TUOTTEET **************************** */
+.uutuusMenuBtnSelected {
+    background: #CEF794;
+    margin: 2px 0px 2px 0px;
+    padding: 10px 0 10px 0px;
+    font-size: 1.3em;
+    text-align: center;    
+}
+.uutuusMenuBtn {
+    margin: 2px 0px 2px 0px;
+    padding: 10px 0 10px 0px;
+    /*background: #FCE4BD;*/
+    /*background: #A7E4EF;*/
+    background: #6F88BA;
+    font-size: 1.3em;
+    text-align: center;
+}
+.uutuusMenuBtn a{
+    text-decoration: none;
+    text-transform:uppercase;
+    /*color: #0073EA;*/
+    color: #ffffff;
+}
+.uutuusMenuBtnSelected a {
+    text-decoration: none;
+    text-transform:uppercase;
+    /*color: #0073EA;*/
+    color: #000000;
+}
+.uutuusMenuBtn a:hover {
+    /*color: #004380;*/
+    color: #ffffff;
+}
+#uutuusnappi{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+#uutuusnappi_content{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+
+/* ********************************* SOPIMUS TUOTTEET **************************** */
+.sopimustuoteMenuBtnSelected {
+    background: #CEF794;
+    margin: 2px 0px 2px 0px;
+    padding: 10px 0 10px 0px;
+    font-size: 1.3em;
+    text-align: center;    
+}
+.sopimustuoteMenuBtn {
+    margin: 2px 0px 2px 0px;
+    padding: 10px 0 10px 0px;
+    /*background: #A7E4EF;*/
+    background: #6F88BA;
+    font-size: 1.3em;
+    text-align: center;
+}
+.sopimustuoteMenuBtn a {
+    text-decoration: none;
+    /*color: #0073EA;*/
+    color: #ffffff;
+    text-transform:uppercase;
+}
+.sopimustuoteMenuBtnSelected a {
+    text-decoration: none;
+    /*color: #0073EA;*/
+    color: #000000;
+    text-transform:uppercase;
+}
+.sopimustuoteMenuBtn a:hover {
+    /*color: #004380;*/
+    color: #ffffff;
+}
+#sopimustuotenappi{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+#sopimustuotenappi_content{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+}
+
+.poikkeavaLaskutusosoite{
+    margin: 20px 0px 0px 0px;
+}
+
+/* ****************************** VIIKKOTARJOUS TUOTTEET **************************** */
+.weaklyOfferMenuBtnSelected {
+    background: #CEF794;
+    margin: 2px 0px 2px 0px;
+    padding: 10px 0 10px 0px;
+    font-size: 1.3em;
+    text-align: center;    
+}
+.weaklyOfferMenuBtn {
+    margin: 2px 0px 2px 0px;
+    padding: 10px 0 10px 0px;
+    /*background: #FCE4BD;*/
+    /*background: #A7E4EF;*/
+    background: #6F88BA;
+    font-size: 1.3em;
+    text-align: center;
+}
+.weaklyOfferMenuBtn a {
+    text-decoration: none;
+    text-transform:uppercase;
+    /*color: #0073EA;*/
+    color: #ffffff;
+}
+.weaklyOfferMenuBtnSelected a {
+    text-decoration: none;
+    text-transform:uppercase;
+    /*color: #0073EA;*/
+    color: #000000;
+}
+.weaklyOfferMenuBtn a:hover {
+    /*color: #004380;*/
+    color: #ffffff;
+}
+#viikkotarjousnappi{
+    padding: 0px 0px 0px 0px; 
+    margin: 2px 0px 2px 0px;
+    border: none;
+}
+#viikkotarjousnappi_content{
+    padding: 0px 0px 0px 0px; 
+    margin: 2px 0px 2px 0px;
+    border: none;
+}
+
+/* *************************** ITSE MÄÄRITELLYT TUOTEVALIKOIMAT ************************ */
+#kirjautumishetki1nappi{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+#kirjautumishetki1nappi_content{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+#kirjautumishetki2nappi{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+#kirjautumishetki2nappi_content{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+#toimitushetki1nappi{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+#toimitushetki1nappi_content{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+#toimitushetki2nappi{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+#toimitushetki2nappi_content{
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+/* ************************************ RYHMIEN KUVAT ********************************** */
+.productGroupImage{
+    border: none;
+    /*width: 100%;*/
+    height: 150px;
+}
+table.productGroupTable{
+    width:100%; 
+    text-align: center; 
+    height: 200px;        
+}
+
+table.productGroupTable tr:first-child{
+    height: 50px !important;
+    width: 20% !important;
+}
+
+div#productGroupImages_content.ui-datagrid-content.ui-widget-content tr.ui-datagrid-row td.ui-datagrid-column{
+    width: 20%;
+}
+table.productGroupTable tr:last-child{
+    height: 150px;
+}
+
+#productGroupImages table.productGroupTable tr td{
+    padding: 0px 0px 0px 0px;
+}
+
+/**************** RIVIMUOTOISEN TUOTESELAILUN TYYLIT *********************** */
+.productRowTable{
+    width: 100%;    
+}
+
+.productRowTable td:nth-child(1){
+    width: 100px;
+    padding: 5px 10px 5px 10px;
+    border-right: transparent;
+    text-align: center;    
+}
+.productRowTable td:nth-child(2){
+    padding: 0px 0px 0px 10px;
+    border-left: transparent;
+    text-align: left;    
+}
+.productRowTable td:nth-child(3){
+    width: 250px;
+    padding: 5px 5px 5px 5px;
+    border-left: transparent;
+    text-align: left;    
+}
+.productRowTable td:nth-child(4){
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    border-left: transparent;
+    text-align: center;    
+}
+.productRowButtons{
+    width: 180px;
+    text-align: right;
+    padding: 5px 5px 5px 5px;    
+}
+.tableWithNoBorders td{
+    padding: 2px 2px 2px 2px !important;    
+}
+input.productAmount{
+    width: 50px;        
+}
+
+.productRowImage{
+    max-height: 60px;
+    max-width: 100px;
+    vertical-align: middle;
+}
+.tableWithNoBorders tr{
+    border: transparent;    
+}
+.productRowTable .tableWithNoBorders td{
+    border: transparent;
+    text-align: left;
+}
+.productRowTable .productRowButtons td{
+    border: transparent;
+    text-align: right;
+}
+.productRowTable .productRowButtons td.ui-panelgrid-cell.cantOrder{    
+    text-align: center;
+}
+
+/* tuoteselailun pikkuikkunat */
+.productSmallDataGrid{    
+    text-align: center;    
+}
+.productSmallDataGrid td{
+    border-color: red;
+}
+.productSmallDataGrid .ui-widget-content{
+    background-color: #E3E3E3;
+    text-align: center;    
+}
+
+.productSmallImage{
+    max-width: 165px;
+    max-height: 140px;
+    vertical-align: middle;    
+}
+
+/*.productSmallTable{
+    min-height: 260px !important;        
+}*/
+
+.productSmallTable{
+    width: 165px;
+    /*min-height: 260px !important;*/
+    height: 100% !important;       
+}
+.footerDiv{
+    display: inline-block;    
+    width: 100%;
+    /*margin-bottom: 50px;*/
+}
+.productSmallTable .ui-widget-content{    
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-align: center;    
+}
+.productSmallTable td.ui-panelgrid-cell{
+    padding: 0px 0px 0px 0px;
+}
+.productSmallTable tr:nth-child(1){
+    height: 140px;
+    vertical-align: middle;
+}
+.productSmallTable tr:nth-child(2){
+    height: 20px;
+    vertical-align: middle;
+}
+input.amountSmallField {
+    width: 30px;
+}
+
+/* kaikkiin tuoteselailuihin liittyviä */
+.columnHeader{
+    font-weight: bolder;
+}
+span.cantOrder{
+    background-color: #e06969;
+    font-size: 14px;
+    padding: 2px;
+    color: #FFFFFF;
+}
+
+.orginalPrice{
+    color: red;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+/* ********************** POISTUVIA ***************************** */
+/* tuotteiden selailua */
+table.tuotetaulu {
+    box-shadow: 2px 2px 2px 2px grey;    
+    min-width: 100% !important;
+    height: 100%;    
+}
+
+.tuotetaulu tr.alarivi{
+    height: 100px !important;
+}
+
+.tuotetaulu tr td{
+    border-color: transparent;
+    max-width: 200px;
+    padding: 0px 0px 0px 0px;
+    vertical-align: top;    
+}
+.tuotetaulu .tuotetauluTiedot tr td{
+    padding: 0px 0px 0px 0px;    
+    border-color: transparent;
+    background-color: transparent;    
+}
+.tuotetaulu td.tuotetauluKuva{
+    padding: 0px 0px 0px 0px;
+}
+.tuotetaulu td.tuotetauluNapit{
+    padding: 0px 0px 0px 0px;
+}
+.tuotetaulu td.tuotetauluOtsikko{
+    height: 30px;
+}
+input.amountField {
+    width: 100%;
+}
+/*.tuotetaulu td.tuotetauluKuva{
+    width: 50%;
+    padding: 10px 5px 0px 5px !important;
+    text-align: center;
+}
+.tuotetauluNapit{
+    float: right;
+}
+table.tuotetauluNapit{
+    width: 100%;
+}*/
+/*.tuotetaulu .tuotetauluNapit td{
+    border-color: transparent; 
+    padding: 2px 5px 2px 5px;
+    white-space: nowrap;
+}
+.pikkuOtsikko{
+    font-weight: bold;
+    font-size: 14px;
+    word-wrap: break-word; 
+    width: 100px;
+}
+.kenttaotsikko{
+    font-weight: bold;       
+}
+.tuotePikkukuva{
+    border: none;
+    width: 100%;    
+}
+
+.tuotekortinPikkuotsikko{
+    font-weight: bold;
+    width: 150px;    
+}
+#tuotekortti{
+    width: 100%;
+}
+
+#tuotekortti td{
+    padding: 5px;
+    border-right-color: transparent;
+}
+.tuotekortinKuva{
+    border: none;
+    height: 200px;
+}
+input.amountFieldProduct {
+    width: 50px;
+}
+
+.tuotekorttiHinnat{
+    margin-left: 30px;
+}
+.tuotekorttiHinnat tr td{
+    border: none;
+    border-color: transparent !important;    
+}*/
+
+
+
+
+
+

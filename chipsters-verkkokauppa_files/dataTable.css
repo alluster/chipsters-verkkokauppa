@@ -1,0 +1,108 @@
+/* 
+    Document   : dataTable
+    Created on : Mar 5, 2014, 3:55:33 PM
+    Author     : pk
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/*th.wstableColumn{*/
+
+.tbl th{
+  text-align: left !important;
+  border: none!important;
+  /*text-transform: uppercase;
+  border-top: 0px;
+  background-color: #1D71B8 !important;
+  color: #FFFFFF!important;
+  font-family: Arial;
+  font-size: 8pt;
+  font-style: normal;
+  font-weight: 700!important;
+  text-align: left;
+  text-decoration: none;*/
+}
+
+/*.tbl .ui-datatable-odd{
+  background-color: white;
+  color: black;
+  text-shadow: none;
+  border-color: white;
+}*/
+
+/*.tbl .ui-datatable-even{
+  background-color: #E6F7FD;
+  color: black;
+  text-shadow: none;
+  border-color: white;
+}*/
+/*.tbl td.wstableColumn{
+  font-size: 10pt;
+}*/
+
+.ui-paginator-bottom{
+  color: #00A3E0!important;
+}
+.ui-paginator-first, .ui-paginator-prev, .ui-paginator-last, .ui-paginator-next{
+  padding: 0px!important;
+}
+.tbl .ui-paginator.ui-paginator-bottom.ui-widget-header{
+  background-color: white;
+  border: none;
+  background: none;
+}
+.ui-datatable-header.ui-widget-header{
+  background-color: white;
+  border: none;
+  background: none;
+  /*background-image:url('/PilettiPreAuthSecurityDemo/none.png')!important;*/
+}
+
+.ui-datatable .ui-datatable-data .ui-state-highlight td {
+    /*border-top: 2px solid #eeb420;
+    border-bottom: 2px solid #eeb420;*/
+    background-color: #00A3E0;
+}
+
+.subtbl .ui-datatable-odd{
+  background-color: white;
+  color: black;
+  text-shadow: none;
+  border-color: white;
+}
+
+.subtbl .ui-datatable-even{
+  background-color: white;
+  color: black;
+  text-shadow: none;
+  border-color: white;
+}
+
+.subtbl td.wstableColumn{
+  border-top-color: #00A3E0!important;
+  border-right: none!important;
+  border-left: none!important;
+  border-top-width: 1px!important;
+  border-top-style: double!important;
+  /*padding-bottom: 10px!important;*/
+  font-size: 11pt;
+  /*border-bottom-color: #00A3E0!important;*/
+}
+
+.ui-paginator .ui-state-default.ui-corner-all{ 
+  border: none!important;
+  background-color: white;
+}
+
+.buttonPanel{
+    height: 35px;
+    /*float: right;
+    clear: none;*/
+}
+.buttonPanelHigher{
+    height: 70px;
+    /*float: right;
+    clear: none;*/
+}
+.testi .ui-datagrid-header{
+    font-size: 16px;
+}

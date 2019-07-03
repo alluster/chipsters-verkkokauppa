@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;        
+}
+
+html{
+    height: 100%;    
+  background: url('/werpWebStore/resources/images/Layer-9-compressor.png') no-repeat center center fixed;  
+  background-size: cover;
+  height: 100%;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+
+}
+
+
+
+body {
+    background-color: transparent;
+    font-size: 10px;
+    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    /*background-image: url('/werpWebStore/resources/images/Layer-9-compressor.png');*/
+    margin: 0;
+    padding: 0;
+    /*background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+h1 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    /*border-bottom: 1px solid #AFAFAF; */
+    font-size:  16px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #D20005;
+}
+
+a:link, a:visited {
+  color: #045491;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+a:link:hover, a:visited:hover  {
+  color: #045491;
+  font-weight : bold;
+  text-decoration : underline;
+}
+
+
+
+
+

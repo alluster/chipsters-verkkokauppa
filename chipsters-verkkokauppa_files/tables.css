@@ -1,0 +1,22 @@
+.ui-datatable {
+  background-color: white !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important; }
+
+.ui-datatable thead th {
+  background: none !important;
+  background-color: white !important;
+  color: white !important; }
+
+.ui-panelgrid .ui-panelgrid-cell {
+  border-width: none !important;
+  border-top-style: transparent !important;
+  border-right-style: transparent !important;
+  border-bottom-style: transparent !important;
+  border-left-style: transparent !important;
+  border-color: transparent !important;
+  padding: 4px 10px;
+  background-color: white !important; }
+
+.ui-datagrid-header {
+  min-height: 20px !important; }

@@ -1,0 +1,68 @@
+
+html {
+    background-color: white !important;
+
+-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+body {
+    background-color: white !important;
+
+    border: none;
+}
+table {
+    all: unset !important;
+}
+.ui-widget-header {
+    background-color: white !important;
+
+}
+
+
+.top { 
+    background-color: white !important;
+}
+.ylaToolbar { 
+    background-color: white !important;
+}
+.wrapper {
+    background-color: white !important; 
+    padding: 30px !important;
+    position: absolute !important;
+}
+
+.ui-panelgrid-odd {
+    display: none !important;
+}
+.ui-accordion-header {
+    background: #0052AB !important;
+    margin: 10px;
+    font-size: 12px !important;
+    padding-left: 20px !important;
+    padding-right: 20px;
+    line-height: 35px;
+    color: #FFFFFF !important;
+    min-height: 35px !important;
+    box-shadow: none !important;
+}
+#ylaForm{
+    margin-bottom: 40px !important;
+    width: 100vw !important;
+}
+
+.tbody {
+    min-height: 100% !important
+}
+
+#tuotteetGrid_content {
+    background-color: white !important;
+}
+#contentPanel {
+    border: none !important;
+}
+
+.ui-widget-content {
+    border: none !important;
+}
